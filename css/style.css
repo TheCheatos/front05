@@ -1,0 +1,22 @@
+ul {
+	font-size: 0;
+}
+
+
+li {
+	font-size: 1rem;
+	display: inline-block;
+	outline: 1px solid green;
+	padding: 10px;
+}
+
+a {
+display: block;
+text-align: center;
+text-decoration: none;
+padding: 10px;
+}
+
+img {
+	width: 10%;
+}
