@@ -2,21 +2,46 @@ ul {
 	font-size: 0;
 }
 
-
-li {
+.sp {
 	font-size: 1rem;
 	display: inline-block;
 	outline: 1px solid green;
 	padding: 10px;
+	position: relative;
+
 }
 
-a {
-display: block;
-text-align: center;
-text-decoration: none;
-padding: 10px;
+.sp:hover {
+	background-color: aquamarine;
 }
 
-img {
+.sp:hover .insp {
+	display: block;
+}
+
+.insp {
+	display: none;
+	position: absolute;
+	top: 37px;
+	left: 0;
+	outline: 1px solid green;
+	padding: 5px;
+}
+
+.insp-item {
+	background-color: aquamarine;
+	margin: 5px;
+	padding: 2px;
+}
+
+.link {
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 1rem;
+}
+
+.logo {
+	float: left;
 	width: 10%;
 }
